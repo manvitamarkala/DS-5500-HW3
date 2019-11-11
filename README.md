@@ -53,7 +53,7 @@ For greater than equal (GE50) , I took an average of the number 50 with 100 i.e.
 For ranged data like 15-20, I took the average of 15, 20.
 For all other formats numbers, just took the number itself.
 
-![BLURRED[]{label="fig:BLURRED"}](BLURRED.png)
+![BLURRED[]{label="fig:BLURRED"}](BLURRED.PNG)
 ###### Figure 5: Blurred Function
 
 ### Use it to process and then visualize the distribution of a performance metric of your choice
@@ -73,7 +73,7 @@ After cutting 15% of the revenue the amount that still remains: 47262330700.0
 
 The table representing the leaids( districts) vs cuts is as belows:
 
-![LEAID_CUT[]{label="fig:LEAID_CUT"}](LEAID_CUT.png)
+![LEAID_CUT[]{label="fig:LEAID_CUT"}](LEAID_CUT.PNG)
 ###### Figure 6: LEAID-CUT 
 
 # Problem 5:
