@@ -46,12 +46,12 @@ I use the following function shown in figure 5 for processing blurred metrics:
 Initially, I converted the column under consideration to a string format and then accordingly cast to integer based on the requirement
 Using regex, for PS, NaN, empty strings and ., I imputed them with NaN, which I later replaced with the mean of the column values. Since the lower limit for the column range is 0 and the upper limit for column range is 100 
 
-For less than (LS50) , I took an average of 1 number less than 50, 49 with 0 i.e. (49+0)/2
-For less than equal (LE50) , I took an average of the number 50 with 0 i.e. (50+0)/2
-For greater than (GT50) , I took an average of 1 number more than 50, 51 with 100 i.e. (51+100)/2
-For greater than equal (GE50) , I took an average of the number 50 with 100 i.e. (50+100)/2.
-For ranged data like 15-20, I took the average of 15, 20.
-For all other formats numbers, just took the number itself.
+- For less than (LS50) , I took an average of 1 number less than 50, 49 with 0 i.e. (49+0)/2
+- For less than equal (LE50) , I took an average of the number 50 with 0 i.e. (50+0)/2
+- For greater than (GT50) , I took an average of 1 number more than 50, 51 with 100 i.e. (51+100)/2
+- For greater than equal (GE50) , I took an average of the number 50 with 100 i.e. (50+100)/2.
+- For ranged data like 15-20, I took the average of 15, 20.
+- For all other formats numbers, just took the number itself.
 
 ![BLURRED[]{label="fig:BLURRED"}](BLURRED.PNG)
 ###### Figure 5: Blurred Function
